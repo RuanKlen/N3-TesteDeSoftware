@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Backend: O back-end do projeto foi desenvolvido utilizando Python e Flask para a criação das APIs de integração com o banco de dados SQLite. As APIs desenvolvidas foram
+ - /users (POST): Desenvolvido para a criação de um novo usuário.
+ - /users (GET): Criado para listar todos os usuários cadastrados.
+ - /users/<int:user_id> (GET): Criado para filtrar os usuários cadastrados por ID.
+ - /users/<int:user_id> ('PUT', 'PATCH'): Desenvolvido para atualizar os dados dos usuários já cadastrados.
+ - /users/<int:user_id> (DELETE): Criado para excluir um usuário através do ID.
+
+Disponibilizado em ``http://127.0.0.1:5000``
+
+Frontend: O front-end foi desenvolvido utilizando React, sem bibliotecas de estilização, apenas com estilizações CSS.
+
+Acesse [http://localhost:3000](http://localhost:3000) para acessar na WEB.
